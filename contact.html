@@ -60,7 +60,7 @@
                      <label for="message">Message:</label><textarea cols="30" rows="5" id="message" name="message"></textarea>
                 </div>
 
-                <div>
+                <!-- <div>
                     <label for="subeject">Subject:</label>
                     <select id="subject">
                         <optgroup label="Product issues">
@@ -76,8 +76,20 @@
                             <option value="other">Other</option>
                         </optgroup>
                     </select>
-                </div>
+                </div> -->
 
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
+                    <datalist id="subjects">
+                        <option value="returns"></option>
+                        <option value="faulty item"></option>
+                        <option value="delivery"></option>
+                        <option value="order track"></option>
+                        <option value="advice"></option>
+                        <option value="others"></option>
+                    </datalist>
+                </div>
                 <div>
                     <p>Subscribe to future offers by:</p>
                     <label for="newsletter">Newsletter</label>
@@ -98,6 +110,13 @@
                     <input type="radio" id="emailResponse" name="response" value="email">
 
                 </div>
+
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                    <!-- <button type="submit">Submit</button> -->
+                </div>
+
             </form>
         
         </main>
