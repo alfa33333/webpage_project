@@ -4,6 +4,7 @@
             }
 
             body {
+                font-family: 'Barlow', sans-serif;;
                 background: white;
                 max-width: 1000px;
                 margin: 0 auto;
@@ -12,4 +13,21 @@
             header, footer {
                 background: #333840; 
                 color: white;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+            }
+
+           .product {
+               border: 1px solid grey;
+               width: 200px;
+               margin: 5px;
+               padding: 5px;
+            }
+
+            img {
+                max-width: 100%;
             }
