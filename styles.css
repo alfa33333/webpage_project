@@ -153,9 +153,13 @@
                     margin-left: 2em;
                 }
 
+                .shop {
+                    display: flex;
+                    flex-flow: row wrap;
+                }
 
                 .product {
-                    display: inline-block;
+                    display: inline-block; 
                     width: 48%;
                 }
 
